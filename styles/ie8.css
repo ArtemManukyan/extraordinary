@@ -1,0 +1,97 @@
+button:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+
+	#content {
+		width: 100% !important;
+	}
+
+}
+
+#news-content figcaption {
+	background: url(../images/ie_figcaption.png);
+	margin-top: -1px;
+}
+
+/* Triangle fix */
+
+.triangle {
+	height: 11px;
+	margin-bottom: -2px;
+}
+
+@media screen and (max-width: 319px) {
+	
+	.triangle {
+		margin-top: -21px !important;
+		margin-bottom: 0 !important;
+	}
+
+}
+
+/* Share button and menu hiding */
+
+@media screen and (max-width: 479px) {
+	
+	#share,
+	#share-menu {
+		display: none;
+		visibility: hidden;
+	}
+
+}
+
+/* News image hoverer fixer */
+
+.news-img-hoverer {
+	background: url(../images/ie_img_hover.png);
+}
+
+/* Settings button */
+
+@media screen and (min-width: 768px) {
+
+	aside li.settings {
+		border-bottom: 1px solid #e7e7e7;
+	}
+
+}
+
+/* Header menus placeholders */
+
+#search-menu input[type="text"] {
+	padding: 5px;
+}
+
+#auth-menu input[type="text"] {
+	padding: 5px;
+}
+
+#auth-menu input[type="password"] {
+	padding: 5px;
+}
+
+/* Header buttons */
+
+#header-btns button {
+	border-left: 1px solid #1e1e1e;
+}
+
+@media screen and (max-width: 767px) {
+
+	#header-btns {
+		border-top: 1px solid #1e1e1e !important;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	.header-btns-clkd {
+		background: #1e1e1e !important;
+		border-left: 1px solid #1e1e1e !important;
+	}
+
+}
