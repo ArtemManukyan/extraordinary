@@ -1,6 +1,6 @@
 # It was a lo-o-ong time ago... not really
 
-## I was doing markup the best I could back than
+## I was doing markup the best I could back then
 
 ---
 
